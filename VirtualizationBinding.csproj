@@ -4,6 +4,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>true</ImplicitUsings>
     <IsBindingProject>true</IsBindingProject>
+    <NoWarn>8767</NoWarn>
   </PropertyGroup>
 
   <ItemGroup>
