@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-macos</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <IsBindingProject>true</IsBindingProject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ObjcBindingApiDefinition Include="ApiDefinition.cs" />
+    <ObjcBindingCoreSource Include="StructsAndEnums.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	  <NativeReference Include="\System\Library\Frameworks\Virtualization.framework">
+	    <Kind>Framework</Kind>
+	    <Frameworks>CoreFoundation AppKit Cocoa</Frameworks>
+	  </NativeReference>
+	</ItemGroup>
+
+</Project>

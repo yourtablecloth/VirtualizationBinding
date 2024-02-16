@@ -1,2 +1,5 @@
 # VirtualizationBinding
-Experimental macOS Virtualization.framework Binding for .NET 8+
+
+## Synopsis
+
+Experimental macOS `Virtualization.framework` Binding for .NET 8+
